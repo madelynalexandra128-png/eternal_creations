@@ -3,15 +3,102 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "Mathreal";
+    src: url(/lib/Mathreal.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #fddfdd;
+}
+
 .img-logo{
-    width: 50px;
-    background-color: #ffffff;
+    width: 80px;
+    background-color: #fcfcfc;
     border-radius: 50%;
 }
+
 
 header{
     margin: 0;
     padding: 0;
-    background-color: #E9C6C4;
+    background-color: #e9c6c4ad;
+}
+
+.content h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #52413f;
+}
+
+.nav-link{
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.title h1{
+    font-family: "Mathreal";
+}
+
+.nav-link:hover{
+    color: #94706d;
+}
+
+.cont h2{
+    color: #52413f;
+}
+
+.content p{
+    padding: 10px;
+}
+
+.cont p,h2{
+    padding: 10px;
+}
+
+.cont h2{
+    text-transform: capitalize;
+}
+
+footer{
+    background-color: #c58c86;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 101px;
+    max-width: 100%;
+}
+
+.footer-link{
+    padding-right: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #52413f;
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+i{
+    font-size: 20px;
+}
+
+.carousel{
+    background-color: #e9c6c4;
+    padding: 10px;
+}
+
+.img-carr{
+    border-radius: 10px;
+    height: 100rem;
 }
 
