@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #fddfdd;
+    background-color: #FFD4E8;
     height: 100vh;
 }
 
@@ -41,4 +41,30 @@ body{
 
 .cont{
     margin-bottom: 10px !important;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #ff9ecdde;
+}
+
+.nav-link{
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.nav-link:hover{
+    color: #FADCEA;
+}
+
+.img-logo{
+    width: 100px;
+    height: 70px;
+}
+
+
+.logo{
+    background-color: #fcfcfc;
+    border-radius: 10px;
 }
