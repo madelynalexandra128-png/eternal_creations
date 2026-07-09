@@ -23,16 +23,15 @@ body{
 }
 
 .img-logo{
-    width: 80px;
-    background-color: #fcfcfc;
-    border-radius: 50%;
+    width: 100px;
+    height: 70px;
 }
 
 
 header{
     margin: 0;
     padding: 0;
-    background-color: #e9c6c4ad;
+    background-color: #ff9ecdde;
 }
 
 .content h1{
@@ -46,12 +45,14 @@ header{
     text-transform: capitalize;
 }
 
-.title h1{
-    font-family: "Mathreal";
-}
 
 .nav-link:hover{
-    color: #94706d;
+    color: #FADCEA;
+}
+
+
+.title h1{
+    font-family: "Mathreal";
 }
 
 .content p{
@@ -59,12 +60,12 @@ header{
 }
 
 footer{
-    background-color: #c58c86;
+    background-color: #ff9ecdde;
 
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
     max-height: 400px;
     max-width: 100%;
@@ -81,7 +82,8 @@ footer{
 }
 
 .logo{
-    padding-left: 20px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
 }
 
 i{
@@ -127,7 +129,7 @@ i{
 .carr-img{
     width:100%;
     max-width:520px;
-    height:auto;
+    max-height:500px;
 
     border-radius: 10px;
     object-fit:cover;
@@ -194,6 +196,16 @@ i{
 
 .text{
     color: #f55582;
+}
+
+.title-cat{
+    text-transform: uppercase;
+    font-family: "Modern";
+}
+
+.title-footer{
+    text-transform: uppercase;
+    font-family: "Modern";
 }
 
 @media (max-width:768px){
