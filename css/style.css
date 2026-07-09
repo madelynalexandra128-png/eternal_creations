@@ -3,15 +3,235 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "Mathreal";
+    src: url(/lib/Mathreal.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GreatVibes";
+    src: url(/lib/GreatVibes-Regular.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #fddfdd;
+    max-width: 100%;
+}
+
 .img-logo{
-    width: 50px;
-    background-color: #ffffff;
+    width: 80px;
+    background-color: #fcfcfc;
     border-radius: 50%;
 }
+
 
 header{
     margin: 0;
     padding: 0;
-    background-color: #E9C6C4;
+    background-color: #e9c6c4ad;
 }
+
+.content h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #52413f;
+}
+
+.nav-link{
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.title h1{
+    font-family: "Mathreal";
+}
+
+.nav-link:hover{
+    color: #94706d;
+}
+
+.content p{
+    padding: 10px;
+}
+
+footer{
+    background-color: #c58c86;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.footer-link{
+    padding-right: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #52413f;
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+i{
+    font-size: 20px;
+}
+
+.carousel{
+    background: linear-gradient(90deg, #ffffff, #fca0c8);
+    padding:60px;
+    min-height:500px;
+    gap:40px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.car-left{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.car-left,
+.car-right{
+    flex:1;
+}
+
+.car-left h1{
+    font-family: "Modern";
+    text-transform: uppercase;
+    font-size:3rem;
+    line-height:1.2;
+}
+
+.car-left h2{
+    font-family: "GreatVibes";
+    color: #f55582;
+    font-size:3.5rem;
+    margin:20px 0;
+}
+
+.carr-img{
+    width:100%;
+    max-width:520px;
+    height:auto;
+
+    border-radius: 10px;
+    object-fit:cover;
+
+    display:flex;
+    justify-content:center;
+}
+
+.nav-footer{
+    margin-top: 10px;
+}
+
+.footer_link{
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer_link:hover{
+    color: #52413f;
+}
+
+.footer-logo{
+    margin-top: 10px;
+}
+
+.col-6 .card{
+    align-items: center;
+    justify-content: center;
+}
+
+.img-cat{
+    width:100%;
+    max-width:120px;
+    height:auto;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.img-cat-1{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.btn{
+    background: #f55582;
+    color: #ffffff;
+    cursor: pointer;
+    padding:12px 30px;
+    border-radius:5px;
+    text-decoration:none;
+    width:max-content;
+}
+
+.btn:hover{
+    background: #c5869c;
+}
+
+.img-1{
+    height: 310px;
+    width: 300px;
+}
+
+.text{
+    color: #f55582;
+}
+
+@media (max-width:768px){
+
+    .carousel{
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+
+        padding:30px 20px;
+
+    }
+
+    .car-left{
+
+        align-items:center;
+
+    }
+
+    .car-left h1{
+
+        font-size:2rem;
+
+    }
+
+    .car-left h2{
+
+        font-size:2.6rem;
+
+    }
+
+    .carr-img{
+
+        max-width:320px;
+
+    }
+
+}
+
 
