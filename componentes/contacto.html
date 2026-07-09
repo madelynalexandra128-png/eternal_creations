@@ -3,47 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/contacto.css">
     <title>Document</title>
 </head>
-<body>
-    <h1>contacto</h1>
+<body >
+    
+    <h2 class="text-center my-3">contacto</h2>
    
 
-    <div>
-        <h3>Contáctanos</h3>
-        <form>
-            <div>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+    <div class="container ">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <h3>Contáctanos</h3>
+                        <form>
+                            <div class="my-3">
+                                <label class="form-label" for="nombre">Nombre</label>
+                                <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Nombre">
+                            </div>
+                            
+                            <div class="my-3">
+                                <label class="form-label" for="correo">Correo electrónico</label>
+                                <input class="form-control" type="email" id="correo" name="correo" placeholder="Correo electrónico">
+                            </div>
+                            
+                            <div class="my-3">
+                                <label class="form-label" for="mensaje">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                            </div>
+                            
+                            
+                            <a href="#" class="btn btn-dark my-4">Enviar</a>
+                        </form>
+                    </div>
+                    <div class="col col-6 col-sm-6 align-self-center">
+                        <div>
+                            <h3>También puedes escribirnos</h3>
+                            <ul>
+                                <li class="my-4">
+                                    <strong>WhatsApp</strong><br>
+                                    <a href="https://wa.me/573227212695">+57 322 7212695</a>
+                                </li>
+                                <li>
+                                    <strong>Instagram</strong><br>
+                                    <a href="https://instagram.com/eternal_creations_18">@eternal_creations_18</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <div>
-                <label for="correo">Correo electrónico</label>
-                <input type="email" id="correo" name="correo" placeholder="Correo electrónico">
-            </div>
-            
-            <div>
-                <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
-            </div>
-            
-            <button type="submit">Enviar mensaje</button>
-        </form>
+        </div>
     </div>
 
-    <div>
-        <h3>También puedes escribirnos</h3>
-        <ul>
-            <li>
-                <strong>WhatsApp</strong><br>
-                <a href="https://wa.me/573227212695">+57 322 7212695</a>
-            </li>
-            <li>
-                <strong>Instagram</strong><br>
-                <a href="https://instagram.com/eternal_creations_18">@eternal_creations_18</a>
-            </li>
-        </ul>
-    </div>
-
+    
+<script src="/js/bootstrap.js"></script>
 </body>
 </html>
