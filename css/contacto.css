@@ -2,12 +2,73 @@ body{
     background: #f8c8de;
 }
 
+@font-face {
+    font-family: "Modern";
+    src: url(/lib/Modern\ Romance.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .card {
     background: #fae0ec;
 }
 
 .btn {
-  width: 200px;
-  background: #f170aa;
+    width: 200px;
+    background: #f170aa;
+    border: #f170aa 1px solid;
+    transition: all 1s;
 }
- 
+
+.btn:hover{
+    background: #f5a5c9;
+    border: #f5a5c9 1px solid;
+}
+
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #ff9ecdde;
+}
+
+.nav-link{
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.nav-link:hover{
+    color: #FADCEA;
+}
+
+.img-logo{
+    width: 100px;
+    height: 70px;
+}
+
+.logo{
+    background-color: #fcfcfc;
+    border-radius: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: #000000;
+}
+
+@font-face {
+    font-family: "Mathreal";
+    src: url(/lib/Mathreal.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title h1{
+    font-family: "Mathreal";
+}
+
+.title-2{
+    font-family: "Modern";
+    font-size: 40px;
+    text-transform: uppercase;
+}

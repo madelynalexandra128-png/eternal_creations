@@ -8,28 +8,21 @@ body{
     height: 100vh;
 }
 
-.title h1{
+@font-face {
+    font-family: "Modern";
+    src: url(/lib/Modern\ Romance.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title-1 h1{
+    font-family: "Modern";
     text-align: center;
     text-transform: uppercase;
 }
 
 .val{
     text-align: center;
-}
-
-.rollback{
-    margin: 10px;
-    border: #52413f 1px solid;
-    background-color: #52413f;
-    width: 150px;
-    color: #ffffff;
-    padding: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.rollback:hover{
-    background-color: #ac8b88;
 }
 
 .link{
@@ -63,8 +56,23 @@ header{
     height: 70px;
 }
 
-
 .logo{
     background-color: #fcfcfc;
     border-radius: 10px;
+}
+
+@font-face {
+    font-family: "Mathreal";
+    src: url(/lib/Mathreal.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title h1{
+    font-family: "Mathreal";
+}
+
+.title-2{
+    font-family: "Modern";
+    font-size: 40px;
 }
