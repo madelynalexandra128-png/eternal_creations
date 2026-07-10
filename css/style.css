@@ -4,6 +4,13 @@
 }
 
 @font-face {
+    font-family: "Modern";
+    src: url(/lib/Modern\ Romance.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Mathreal";
     src: url(/lib/Mathreal.ttf) format("opentype");
     font-weight: normal;
@@ -206,6 +213,10 @@ i{
 .title-footer{
     text-transform: uppercase;
     font-family: "Modern";
+}
+
+.text-danger{
+    color: #f55582 !important;
 }
 
 @media (max-width:768px){

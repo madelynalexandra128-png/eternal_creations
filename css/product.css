@@ -22,3 +22,14 @@ header{
     background-color: #fcfcfc;
     border-radius: 10px;
 }
+
+@font-face {
+    font-family: "Mathreal";
+    src: url(/lib/Mathreal.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title h1{
+    font-family: "Mathreal";
+}
