@@ -67,7 +67,7 @@ header{
 }
 
 footer{
-    background-color: #ff9ecdde;
+    background-color: #faa8d0de;
 
     display: flex;
     flex-wrap: wrap;
@@ -82,6 +82,7 @@ footer{
     padding-right: 10px;
     color: #000000;
     text-decoration: none;
+    text-transform: capitalize;
 }
 
 .footer-link:hover{
@@ -152,6 +153,7 @@ i{
 .footer_link{
     color: #000000;
     text-decoration: none;
+    text-transform: capitalize;
 }
 
 .footer_link:hover{
@@ -159,7 +161,9 @@ i{
 }
 
 .footer-logo{
-    margin-top: 10px;
+    background: #ffffff;
+    width: 100px;
+    border-radius: 10px;
 }
 
 .col-6 .card{
@@ -218,6 +222,18 @@ i{
 .text-danger{
     color: #f55582 !important;
 }
+.footer-card{
+    border-right: #ffffff 1px solid;
+}
+.footer-card-1{
+    border-top: #fd759b 1px solid;
+    width: 100%;
+    padding-top: 10px;
+}
+.icon-footer{
+    color: #f55582;
+    margin-right: 10px;
+}
 
 @media (max-width:768px){
 
@@ -255,6 +271,33 @@ i{
 
     }
 
+}
+
+/* animacion de bola */
+
+.bola{
+    background-color: #28ea48ad;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+    transition: all 10ms;
+}
+
+.bola:hover{
+    transform: scale(1.1);
+}
+
+.icon-bola{
+    font-size: 40px;
+    color: #ffffff;
 }
 
 
