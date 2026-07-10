@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #FFD4E8;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: "Modern";
+    src: url(/lib/Modern\ Romance.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title-1 h1{
+    font-family: "Modern";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.val{
+    text-align: center;
+}
+
+.link{
+    transform: translateY(20px);
+}
+.img-1{
+    height: 400px;
+}
+
+.cont{
+    margin-bottom: 10px !important;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #ff9ecdde;
+}
+
+.nav-link{
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.nav-link:hover{
+    color: #FADCEA;
+}
+
+.img-logo{
+    width: 100px;
+    height: 70px;
+}
+
+.logo{
+    background-color: #fcfcfc;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: "Mathreal";
+    src: url(/lib/Mathreal.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title h1{
+    font-family: "Mathreal";
+}
+
+.title-2{
+    font-family: "Modern";
+    font-size: 40px;
+}
+
+.bola{
+    background-color: #28ea48ad;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+    transition: all 10ms;
+}
+
+.bola:hover{
+    transform: scale(1.1);
+}
+
+.icon-bola{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.text-danger{
+    color: #f55582 !important;
+}
+
+footer{
+    background-color: #faa8d0de;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.footer-link{
+    padding-right: 10px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.footer-link:hover{
+    color: #52413f;
+}
+
+.title-footer{
+    text-transform: uppercase;
+    font-family: "Modern";
+}
+
+.text-danger{
+    color: #f55582 !important;
+}
+.footer-card{
+    border-right: #ffffff 1px solid;
+}
+.footer-card-1{
+    border-top: #fd759b 1px solid;
+    width: 100%;
+    padding-top: 10px;
+}
+.icon-footer{
+    color: #f55582;
+    margin-right: 10px;
+}
+
+.footer-logo{
+    background: #ffffff;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.footer-link{
+    padding-right: 10px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.footer-link:hover{
+    color: #52413f;
+}
+
+.footer_link{
+    color: #000000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.footer_link:hover{
+    color: #52413f;
+}
