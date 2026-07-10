@@ -4,6 +4,13 @@ body{
     max-width: 100%;
 }
 
+@font-face {
+    font-family: "Modern";
+    src: url(/lib/Modern\ Romance.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .card img{
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -17,27 +24,14 @@ body{
 }
 
 .title{
+    font-family: "Modern";
     text-transform: uppercase;
 }
 
 .sub-title{
+    font-family: "Modern";
     text-transform: capitalize;
 }
-
-.rollback{
-    border: #52413f 1px solid;
-    background-color: #52413f;
-    width: 150px;
-    color: #ffffff;
-    padding: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.rollback:hover{
-    background-color: #ac8b88;
-}
-
 
 header{
     margin: 0;
@@ -62,4 +56,15 @@ header{
 .logo{
     background-color: #fcfcfc;
     border-radius: 10px;
+}
+
+@font-face {
+    font-family: "Mathreal";
+    src: url(/lib/Mathreal.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title h1{
+    font-family: "Mathreal";
 }

@@ -1,11 +1,5 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
 body{
-    background-color: #FFD4E8;
-    height: 100vh;
+    background: #f8c8de;
 }
 
 @font-face {
@@ -15,26 +9,22 @@ body{
     font-style: normal;
 }
 
-.title-1 h1{
-    font-family: "Modern";
-    text-align: center;
-    text-transform: uppercase;
+.card {
+    background: #fae0ec;
 }
 
-.val{
-    text-align: center;
+.btn {
+    width: 200px;
+    background: #f170aa;
+    border: #f170aa 1px solid;
+    transition: all 1s;
 }
 
-.link{
-    transform: translateY(20px);
-}
-.img-1{
-    height: 400px;
+.btn:hover{
+    background: #f5a5c9;
+    border: #f5a5c9 1px solid;
 }
 
-.cont{
-    margin-bottom: 10px !important;
-}
 
 header{
     margin: 0;
@@ -61,6 +51,11 @@ header{
     border-radius: 10px;
 }
 
+.link{
+    text-decoration: none;
+    color: #000000;
+}
+
 @font-face {
     font-family: "Mathreal";
     src: url(/lib/Mathreal.ttf) format("opentype");
@@ -75,4 +70,5 @@ header{
 .title-2{
     font-family: "Modern";
     font-size: 40px;
+    text-transform: uppercase;
 }
