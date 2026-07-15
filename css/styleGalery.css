@@ -40,12 +40,34 @@ header{
 }
 
 .nav-link{
+    position: relative;
     color: #000000;
     text-transform: capitalize;
 }
 
 .nav-link:hover{
     color: #FADCEA;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ca0b64;
+    transition: width .3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after{
+    width: 100%;
+}
+
+.main-nav{
+    display: flex;
+    gap: 1.5rem;
 }
 
 .img-logo{
@@ -87,6 +109,7 @@ header{
 
 .bola:hover{
     transform: scale(1.1);
+    background-color: #34f054;
 }
 
 .icon-bola{
