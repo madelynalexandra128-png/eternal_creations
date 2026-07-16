@@ -53,6 +53,13 @@ header{
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Modern";
+    src: url(/lib/Modern\ Romance.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .title h1{
     font-family: "Mathreal";
 }
@@ -157,4 +164,34 @@ footer{
 .card{
     border: none;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.594);
+}
+
+img{
+    height: 300px;
+    max-height: 350px;
+}
+
+.title{
+    font-family: "Modern";
+}
+
+.sub-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', cursive;
+}
+
+.btn{
+    background: #f0698f;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.btn:hover{
+    background: #f2a1b8;
+    color: #ffffff;
+}
+
+.btn:active{
+    transform: scale(1.1);
+    background: #f2a1b8;
+    color: #ffffff;
 }
